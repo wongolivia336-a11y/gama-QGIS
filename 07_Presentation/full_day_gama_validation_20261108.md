@@ -72,8 +72,8 @@ GAMA 2025.6.4；07:30–17:30；10 秒一步；每分钟汇总，共 601 个时�
 
 ## 运行素材
 
-全校路网热度动画覆盖 07:30–17:30，基于 GAMA 路网输出的 121 个五分钟快照生成。MP4 时长 24.2 秒；2 倍速 GIF 时长 12.1 秒。GIF 是可播放的模拟结果动画，Figma 04G 中放置的是预览静帧。
+全校路网热度动画覆盖 07:30–17:30，基于 GAMA 路网输出的 121 个五分钟快照生成。[MP4 全日热度视频](media/Tongji_全校域全天路网热度.mp4) 时长 24.2 秒；[2 倍速 GIF](media/Tongji_全校域全天路网热度_2x.gif) 时长 12.1 秒。Figma 04G 中放置的是 GIF 预览静帧。
 
 工作簿截图依据实际单元格范围渲染：`全天与课表!A24:H29`、`行为推导留痕!A18:C20`。GAMA 截图取自实际运行画面，热度动画取自运行结果数据。
 
-素材位于工作区 `outputs/2026-11-08-presentation-media/`。渲染脚本见 [make_full_day_road_heat.py](make_full_day_road_heat.py)、[make_accelerated_gif.py](make_accelerated_gif.py) 与 [render_workbook_ranges.py](render_workbook_ranges.py)。
+视频与 GIF 已放入本目录的 `media/` 文件夹。渲染脚本见 [make_full_day_road_heat.py](make_full_day_road_heat.py)、[make_accelerated_gif.py](make_accelerated_gif.py) 与 [render_workbook_ranges.py](render_workbook_ranges.py)。
