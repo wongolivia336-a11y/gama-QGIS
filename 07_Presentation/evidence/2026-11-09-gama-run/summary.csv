@@ -1,0 +1,15 @@
+metric,value,unit,scenario,definition
+population,1474,agents,both,synthetic agents in the full-day run
+clock_start,07:30,local time,both,model minute 450
+clock_end,17:30,local time,both,model minute 1050
+random_seed,42,seed,both,GAMA random seed
+population_seed,20261105,seed,both,population assignment seed
+roads,337,segments,both,road features loaded by the run
+candidate_points,192,points,both,candidate observation points loaded by the run
+baseline_observations,73290,records,baseline,all recorded spatial observations
+baseline_facility_visits,0,entry events,baseline,facilities disabled
+facility_observations,71331,records,facilities_enabled,all recorded spatial observations
+facility_visit_events,5831,entry events,facilities_enabled,facility entry events summed over all candidate sites
+site_summed_unique_visitors,5435,site-person pairs,facilities_enabled,sum of per-site unique visitors; not globally deduplicated
+peak_single_site_occupancy,6,people,facilities_enabled,maximum per-site instantaneous occupancy observed
+facility_capacity_per_site,6,seats,facilities_enabled,trial setting applied uniformly to all 192 candidate sites
