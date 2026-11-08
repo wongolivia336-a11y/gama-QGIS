@@ -1,0 +1,33 @@
+{
+  "audit_date": "2026-11-08",
+  "application": "QGIS Desktop 3.44.15",
+  "project": "同济四平路校区.qgz",
+  "open_result": "项目配置可在 QGIS 桌面程序中打开；项目列出的图层均无法载入几何，因为外部 GeoPackage 数据源当前不可用。",
+  "qgz_format_error": false,
+  "layers_total": 13,
+  "layers_with_unavailable_sources": 13,
+  "geometry_or_feature_counts_verified": false,
+  "required_geopackages": [
+    {"file": "research_buildings.gpkg", "role": "重点研究建筑面"},
+    {"file": "building_entrances.gpkg", "role": "建筑出入口；图层标签称40个，实际要素数未核实"},
+    {"file": "roads.gpkg", "role": "底图道路"},
+    {"file": "nodes.gpkg", "role": "底图节点"},
+    {"file": "model_roads.gpkg", "role": "模拟路网道路"},
+    {"file": "model_nodes.gpkg", "role": "模拟路网节点"},
+    {"file": "interventions.gpkg", "role": "约50m均匀候选干预点；实际要素数未核实"},
+    {"file": "other_buildings.gpkg", "role": "其他建筑背景"},
+    {"file": "other_sports.gpkg", "role": "其他运动空间背景"},
+    {"file": "sports_fields.gpkg", "role": "运动场地背景"},
+    {"file": "green_spaces.gpkg", "role": "绿地背景"},
+    {"file": "campus_boundary.gpkg", "role": "校园边界/校门识别参考"},
+    {"file": "water_bodies.gpkg", "role": "水体背景"}
+  ],
+  "known_limitations": [
+    "无法从当前项目状态统计宿舍实际分栋及各栋人数。",
+    "无法核验校门数量、建筑入口要素数或每栋楼的门位归属。",
+    "无法检查道路拓扑连通性、坐标系和入口到路网节点的连接。",
+    "无法统计 interventions 图层的真实候选点数量；不把192当作确认值。",
+    "无法生成基于该QGIS底图的正式全校区 GAMA 运行。"
+  ],
+  "next_input": "请提供此工程引用的13个GPKG文件（建议连同 qgz 一起压缩，保留文件名/目录结构）；无需重新导出或改造成其他格式。"
+}

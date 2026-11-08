@@ -1,0 +1,17 @@
+# Raw campus geometry is shared only after the QGIS package is reviewed.
+*.gpkg
+*.gpkg-wal
+*.gpkg-shm
+
+# Keep local analysis outputs and caches out of the collaboration repository.
+__pycache__/
+*.py[cod]
+outputs/
+results/
+validation/headless-*/
+validation/*-engine.log
+validation/*.xml
+
+# Raw course exports may contain individual-level or staff information.
+02_Data/raw/
+

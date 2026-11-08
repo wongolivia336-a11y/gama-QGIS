@@ -1,0 +1,10 @@
+source_id,source_type,title,repository_reference,access_date,evidence_type,scope,status,notes
+P01,user_attachment,2026秋教学大纲学生版,00_Project_Brief/course_requirements.md,2026-10-31,Observed,course requirements,reviewed,Original PDF is user-held and is not republished here
+P02,user_attachment,同济大学最新学期课程排课(2).xlsx,02_Data/processed/同济大学全天Agent模拟参数归类_修订版.xlsx,2026-11-08,Observed,aggregated target-major timetable,reviewed,Raw schedule workbook is not republished; repeated course records are not independent people
+P03,user_attachment,同济四平路校区.qgz,04_GIS/qgis_project_audit_20261108.json,2026-11-08,Observed,QGIS layer configuration,opened-in-QGIS,Project opened in QGIS Desktop 3.44.15; referenced GPKGs not supplied
+P04,user_attachment,楼宇信息汇总表.xlsx and behavior-count image,00_Project_Brief/current_model_scope.md,2026-11-08,Reported,building/dorm and major counts,reviewed,Dorm origin split is an explicit model inference; it is not an occupancy survey
+P05,user_attachment,CampuScope 26 PDF and ZIP,05_GAMA/full_day/includes/full_day_activity_profile.json,2026-11-08,Reported,simulation patterns and outputs,reviewed,Use as reference logic; not a substitute for the campus QGIS geometry
+P06,user_provided_link,Figma research board,https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/,2026-11-08,Reported,design context,reference,Link supplied in the project conversation
+P07,derived_model,NoonScope original GAMA model,05_GAMA/full_day/models/NoonScope.gaml,2026-11-08,Observed,legacy model baseline,preserved,Unmodified template used to generate the full-day derivative
+P08,derived_model,CampusScopeFullDay GAMA model,05_GAMA/full_day/models/CampusScopeFullDay.gaml,2026-11-08,Synthetic,full-day behavior simulation,compiled,Old-map smoke test is mechanics-only and not a campus spatial finding
+P09,official_web,同济大学2026–2027学年校历,https://xxgk.tongji.edu.cn/themes/124/userfiles/download/2026/6/17/6m7litby2qhczut.pdf,2026-11-08,Reported,course period/time mapping,referenced,Used to map periods to clock-time boundaries
