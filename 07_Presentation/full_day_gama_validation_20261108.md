@@ -60,11 +60,11 @@ GAMA 2025.6.4；07:30–17:30；10 秒一步；每分钟汇总，共 601 个时�
 新增页面按以下顺序串起“全域模拟—局部发现—设计回应”：
 
 - [04A｜全校域·全天候模拟](https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E4%BC%9A%E5%91%98%E7%89%88?node-id=330-2)：人口、范围与全天活动图。
-- [04B｜数据收集与处理留痕](https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/%E6%95%B0%E6%8D%AE%E9%A9%B4%E5%91%98%E7%89%88?node-id=330-132)：Excel、课表与 QGIS 输入。
-- [04C｜GAMA 运行记录](https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/%E6%95%B0%E6%8D%AE%E9%A9%B4%E5%91%98%E7%89%88?node-id=330-299)：全天基线和设施压力测试。
-- [04D｜全校午间热点与重点片区](https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/%E6%95%B0%E6%8D%AE%E9%A9%B4%E5%91%98%E7%89%88?node-id=338-2)：食堂周边流量比较与局部范围。
-- [04E｜午间时间与目标人群](https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/%E6%95%B0%E6%8D%AE%E9%A9%B4%E5%91%98%E7%89%88?node-id=338-169)：活动时段比例与饭后休息/学习窗口。
-- [04F｜学苑食堂午间共享空间](https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/%E6%95%B0%E6%8D%AE%E9%A9%B4%E5%91%98%E7%89%88?node-id=338-358)：设计落点及人流、互动指标。
+- [04B｜数据收集与处理留痕](https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E4%BC%9A%E5%91%98%E7%89%88?node-id=330-132)：Excel、课表与 QGIS 输入。
+- [04C｜GAMA 运行记录](https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E4%BC%9A%E5%91%98%E7%89%88?node-id=330-299)：全天基线和设施压力测试。
+- [04D｜全校午间热点与重点片区](https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E4%BC%9A%E5%91%98%E7%89%88?node-id=338-2)：食堂周边流量比较与局部范围。
+- [04E｜午间时间与目标人群](https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E4%BC%9A%E5%91%98%E7%89%88?node-id=338-169)：活动时段比例与饭后休息/学习窗口。
+- [04F｜学苑食堂午间共享空间](https://www.figma.com/design/zH2SdZBzSlvU3JWgyi5vjH/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E4%BC%9A%E5%91%98%E7%89%88?node-id=338-358)：设计落点及人流、互动指标。
 
 ## 视频记录
 
