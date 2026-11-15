@@ -1,0 +1,149 @@
+{
+  "model": "CampusScopeFullDay",
+  "window": {
+    "start": "07:30",
+    "end": "17:30",
+    "start_minute": 450,
+    "end_minute": 1050
+  },
+  "population": {
+    "total": 1474,
+    "major_counts": {
+      "ENV": 400,
+      "OCEAN": 384,
+      "MARX": 72,
+      "CHEM": 351,
+      "PUBLIC_ADMIN": 267
+    },
+    "origin_split": {
+      "dorms": 1179,
+      "campus_gates": 295
+    },
+    "dorm_buildings": 11,
+    "campus_gate_distribution": "uniform over the actual campus portals in the GIS network",
+    "population_seed": 20261105,
+    "gama_seed": 42,
+    "release_window": {
+      "start": "07:30",
+      "end": "08:30",
+      "distribution": "stratified uniform with deterministic jitter"
+    }
+  },
+  "activity_order": [
+    "eat",
+    "rest",
+    "class",
+    "study",
+    "pass_or_exit",
+    "return_to_origin"
+  ],
+  "time_bands": [
+    {
+      "start": "07:30",
+      "end": "08:30",
+      "weights": [
+        0.05,
+        0.05,
+        0.72,
+        0.15,
+        0.03,
+        0
+      ],
+      "rationale": "晨间到校与首批课程，上课占主导。"
+    },
+    {
+      "start": "08:30",
+      "end": "11:30",
+      "weights": [
+        0.04,
+        0.08,
+        0.7,
+        0.15,
+        0.03,
+        0
+      ],
+      "rationale": "上午课程为主，穿插自习、短休息与少量穿行。"
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "weights": [
+        0.7,
+        0.2,
+        0,
+        0.05,
+        0.05,
+        0
+      ],
+      "rationale": "沿用旧午间提示词第一时段比例。"
+    },
+    {
+      "start": "12:30",
+      "end": "13:10",
+      "weights": [
+        0.2,
+        0.45,
+        0,
+        0.3,
+        0.05,
+        0
+      ],
+      "rationale": "沿用旧午间提示词第二时段比例。"
+    },
+    {
+      "start": "13:10",
+      "end": "13:30",
+      "weights": [
+        0,
+        0.05,
+        0.5,
+        0,
+        0.45,
+        0
+      ],
+      "rationale": "沿用旧午间提示词第三时段比例；删除13:10强制离开设施分支。"
+    },
+    {
+      "start": "13:30",
+      "end": "17:00",
+      "weights": [
+        0.05,
+        0.1,
+        0.62,
+        0.18,
+        0.05,
+        0
+      ],
+      "rationale": "下午课程为主，增加自习并保留短休息、就餐与穿行。"
+    },
+    {
+      "start": "17:00",
+      "end": "17:30",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "rationale": "返回晨间起点；宿舍来源回楼门，校门来源回原校门。"
+    }
+  ],
+  "stay_minutes": {
+    "building": 30,
+    "facility": 20,
+    "baseline_rest": 20,
+    "late_day_stays_capped_at": "17:00"
+  },
+  "routing": {
+    "shortest_route_probability": 0.8,
+    "detour_probability": 0.2,
+    "maximum_detour_ratio": 1.25,
+    "walking_speed_mps": [
+      1.0,
+      1.5
+    ]
+  },
+  "interpretation": "全天行为比例是可追溯的行为推演规则；课表和QGIS核验到位后，课堂节次、楼栋目的地和楼门路由继续由输入数据细化。"
+}

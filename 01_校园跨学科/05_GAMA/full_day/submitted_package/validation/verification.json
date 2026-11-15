@@ -1,0 +1,119 @@
+{
+  "population": 1474,
+  "majors": {
+    "ENV": 400,
+    "OCEAN": 384,
+    "MARX": 72,
+    "CHEM": 351,
+    "PUBLIC_ADMIN": 267
+  },
+  "routes": 5661,
+  "baseline": {
+    "finished": true,
+    "minute_records": 601,
+    "people": 1474,
+    "observation_events": 73290,
+    "max_walking": 1011,
+    "facility_visits": 0,
+    "facility_max_occupancy": 0,
+    "persons_with_complete_state_intervals": 1474,
+    "late_class_arrivals": 0,
+    "candidates_ever_observed": 153,
+    "top_candidates": [
+      [
+        76,
+        1121
+      ],
+      [
+        110,
+        1108
+      ],
+      [
+        44,
+        1062
+      ],
+      [
+        9,
+        992
+      ],
+      [
+        11,
+        992
+      ],
+      [
+        14,
+        900
+      ],
+      [
+        3,
+        890
+      ],
+      [
+        23,
+        875
+      ],
+      [
+        109,
+        864
+      ],
+      [
+        31,
+        824
+      ]
+    ]
+  },
+  "facilities": {
+    "finished": true,
+    "minute_records": 601,
+    "people": 1474,
+    "observation_events": 71331,
+    "max_walking": 781,
+    "facility_visits": 5831,
+    "facility_max_occupancy": 6,
+    "persons_with_complete_state_intervals": 1474,
+    "late_class_arrivals": 67,
+    "candidates_ever_observed": 153,
+    "top_candidates": [
+      [
+        76,
+        1116
+      ],
+      [
+        110,
+        1103
+      ],
+      [
+        44,
+        1055
+      ],
+      [
+        9,
+        988
+      ],
+      [
+        11,
+        988
+      ],
+      [
+        14,
+        890
+      ],
+      [
+        3,
+        889
+      ],
+      [
+        23,
+        869
+      ],
+      [
+        109,
+        861
+      ],
+      [
+        31,
+        820
+      ]
+    ]
+  }
+}

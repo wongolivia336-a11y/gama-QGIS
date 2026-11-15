@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HEATWEAVE 热织 · 街道智能体交互规则</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <main id="view">
+    <div id="canvas"></div>
+    <header class="ov tl">
+      <div class="brand">HEATWEAVE <span>热织</span></div>
+      <div class="sub">街道智能体交互规则 · 下层单人五灰阶</div>
+      <div id="status" class="status"></div>
+    </header>
+    <div class="ov tr" id="legend">
+      <div class="lg-title">GROUND VIEW · <b id="lgName">高度 H</b></div>
+      <div class="lg-bar"></div>
+      <div class="lg-ticks"><span>0 弱</span><span>1 强</span></div>
+    </div>
+    <section class="ov bl" id="readout">
+      <div class="ro-head">LIVE OUTPUT · 目标 → 实际（时间滤波后）</div>
+      <table id="roTable"></table>
+      <canvas id="trace" width="520" height="96"></canvas>
+      <div class="ro-foot" id="clr"></div>
+    </section>
+    <div class="ov hint">拖动琥珀色人物移动位置 · 拖动空白处旋转视角 · 滚轮缩放</div>
+    <footer class="ov foot">
+      仅单人规则：多人行为已测试，但难以可靠判定，已放弃 · 活动标签为手动选择（大模型标签尚未接入）· 环境/人物评分为手动入口 · 仅驱动 Rhino 数字模型，未连接电机
+    </footer>
+  </main>
+  <aside id="panel"></aside>
+</div>
+<script src="model_data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

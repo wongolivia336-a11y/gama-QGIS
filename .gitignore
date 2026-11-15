@@ -13,5 +13,21 @@ validation/*-engine.log
 validation/*.xml
 
 # Raw course exports may contain individual-level or staff information.
-02_Data/raw/
+/01_校园跨学科/02_Data/raw/
+
+# The original Attune deck contains identifiable pedestrian images and video.
+# Keep the complete local handoff intact, while publishing only the standalone
+# interactive model under this tree.
+/02_大学路遮荫/01_建院交接原项目/preview/Attune_知荫_汇报/media/
+/02_大学路遮荫/01_建院交接原项目/preview/Attune_知荫_汇报/data/
+/02_大学路遮荫/01_建院交接原项目/preview/Attune_知荫_汇报/index.html
+/02_大学路遮荫/01_建院交接原项目/preview/Attune_知荫_汇报/deck.css
+/02_大学路遮荫/01_建院交接原项目/preview/Attune_知荫_汇报/deck.js
+/02_大学路遮荫/01_建院交接原项目/preview/Attune_知荫_汇报/pscore.js
+/02_大学路遮荫/01_建院交接原项目/preview/Attune_知荫_汇报/使用说明.txt
+
+# The large handoff archive is mirrored as byte-preserving parts below.
+# Its contained project_original.csv duplicates the separately supplied CSV.
+/02_大学路遮荫/01_建院交接原项目/source/0614_1300_sum.csv
+/02_大学路遮荫/01_建院交接原项目/source/大学路遮荫数据_20261113_交付.zip
 
