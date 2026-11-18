@@ -13,7 +13,7 @@
 - `model/DaxueRoadSiteSweepShortlistFixed.gaml`：2020-08-13
 - `model/DaxueRoadSiteSweepShortlistFixed2022.gaml`：2022-07-13
 
-本目录附有 GAMA 模型和批量结果；OBS 对 GAMA 软件窗口的实际录屏尚未生成。
+本目录附有 GAMA 模型和批量结果；[OBS 实录视频（PilotPreview，140 m）](results/GAMA_PilotPreview_OBS_140m.mp4)（约 19 秒）使用 OBS 的“GAMA 实际运行”场景捕捉 GAMA 应用窗口，展示 140 m 名义点的预览情景。
 
 批量实验会把原始 CSV 写入同级 `results/`。`*_raw.csv` 是 GAMA 直接输出；整理版 CSV 额外给出 `site_label`。位置分析以数值字段 `candidate_s_m` 为准；原始输出中的旧 `site_id` 字段保留了初筛时的标签，不用于 10、130、140、260 m 的位置识别。
 
