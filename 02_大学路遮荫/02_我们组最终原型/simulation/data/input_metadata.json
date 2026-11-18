@@ -1,0 +1,262 @@
+{
+  "osm_core_way_id": "way/1355163990",
+  "core_length_m": 262.8213368672366,
+  "core_bearing_ne_to_sw_deg": 247.45263761091877,
+  "core_vertices": 5,
+  "tree_point_count_within_15m_of_core": 45,
+  "tree_points_are_canopy_geometry": false,
+  "tree_radius_assumed_m": 3.5,
+  "pedestrian_lane_offset_assumed_m": 6.5,
+  "tree_shade_intervals_nw": [
+    [
+      24.307541690074828,
+      31.307541690074828
+    ],
+    [
+      32.74397407170673,
+      39.74397407170673
+    ],
+    [
+      40.50647813731021,
+      47.50647813731021
+    ],
+    [
+      47.79811377200322,
+      54.79811377200322
+    ],
+    [
+      55.46350224351222,
+      62.46350224351222
+    ],
+    [
+      63.79399033887965,
+      70.79399033887965
+    ],
+    [
+      72.13330712470749,
+      79.13330712470749
+    ],
+    [
+      81.1937524159461,
+      88.1937524159461
+    ],
+    [
+      88.48980239425217,
+      95.48980239425217
+    ],
+    [
+      96.92182043074631,
+      103.92182043074631
+    ],
+    [
+      104.11634046982013,
+      111.11634046982013
+    ],
+    [
+      112.64547410193344,
+      119.64547410193344
+    ],
+    [
+      149.7130876107688,
+      156.7130876107688
+    ],
+    [
+      158.13839030180415,
+      165.13839030180415
+    ],
+    [
+      165.89971576622332,
+      172.89971576622332
+    ],
+    [
+      174.60655653954873,
+      181.60655653954873
+    ],
+    [
+      181.88862656069003,
+      188.88862656069003
+    ],
+    [
+      189.64995202528502,
+      196.64995202528502
+    ],
+    [
+      197.79397381672555,
+      204.79397381672555
+    ],
+    [
+      205.68907412957637,
+      212.68907412957637
+    ],
+    [
+      214.37570174851285,
+      221.37570174851285
+    ],
+    [
+      221.62456569326395,
+      228.62456569326395
+    ],
+    [
+      233.16861916948116,
+      240.16861916948116
+    ],
+    [
+      242.14995432712814,
+      249.14995432712814
+    ]
+  ],
+  "tree_shade_intervals_se": [
+    [
+      24.42476763368678,
+      31.42476763368678
+    ],
+    [
+      39.751130229672555,
+      46.751130229672555
+    ],
+    [
+      48.289092550721584,
+      55.289092550721584
+    ],
+    [
+      56.416520764020476,
+      63.416520764020476
+    ],
+    [
+      63.50951086215245,
+      70.50951086215245
+    ],
+    [
+      71.267600583958,
+      78.267600583958
+    ],
+    [
+      78.55923621883589,
+      85.55923621883589
+    ],
+    [
+      87.72562579633896,
+      94.72562579633896
+    ],
+    [
+      95.59407414973164,
+      109.32203119645357
+    ],
+    [
+      150.46404755031566,
+      157.46404755031566
+    ],
+    [
+      158.26978339410192,
+      165.26978339410192
+    ],
+    [
+      166.50616607953503,
+      173.50616607953503
+    ],
+    [
+      173.70007343067246,
+      180.70007343067246
+    ],
+    [
+      182.30195864286185,
+      189.30195864286185
+    ],
+    [
+      189.31508525040545,
+      196.31508525040545
+    ],
+    [
+      198.11848513861423,
+      205.11848513861423
+    ],
+    [
+      205.41583737652476,
+      212.41583737652476
+    ],
+    [
+      213.3993755416551,
+      220.3993755416551
+    ],
+    [
+      221.6352078887847,
+      228.6352078887847
+    ],
+    [
+      240.27434652626962,
+      247.27434652626962
+    ]
+  ],
+  "candidate_screen": [
+    {
+      "candidate_id": "A",
+      "chainage_from_northeast_m": 65.0,
+      "distance_from_zhixing_road_m": 65.0,
+      "distance_from_jinchuang_road_m": 197.8213368672366,
+      "nearest_mapped_tree_chainage_m": 67.29399033887965,
+      "nearest_mapped_tree_offset_nw_m": 7.009194663916006,
+      "nearest_mapped_tree_point_distance_m": 2.3498235850024396,
+      "neighbor_tree_chainage_gap_m": 7.092990098131978,
+      "core_centerline_lon": 121.50676155053488,
+      "core_centerline_lat": 31.3066129349658,
+      "provisional_nw_offset_6_5m_lon": 121.50673438942931,
+      "provisional_nw_offset_6_5m_lat": 31.30666658709489,
+      "osm_core_way_id": "way/1355163990",
+      "evidence_limit": "OSM point distance only; not canopy footprint, shade, clearance, ownership, or observed demand"
+    },
+    {
+      "candidate_id": "B",
+      "chainage_from_northeast_m": 135.0,
+      "distance_from_zhixing_road_m": 135.0,
+      "distance_from_jinchuang_road_m": 127.8213368672366,
+      "nearest_mapped_tree_chainage_m": 153.2130876107688,
+      "nearest_mapped_tree_offset_nw_m": 7.246978811289475,
+      "nearest_mapped_tree_point_distance_m": 18.22839920733732,
+      "neighbor_tree_chainage_gap_m": 37.067613508835365,
+      "core_centerline_lon": 121.50608491738636,
+      "core_centerline_lat": 31.306363791411506,
+      "provisional_nw_offset_6_5m_lon": 121.50605908606722,
+      "provisional_nw_offset_6_5m_lat": 31.306417920823453,
+      "osm_core_way_id": "way/1355163990",
+      "evidence_limit": "OSM point distance only; not canopy footprint, shade, clearance, ownership, or observed demand"
+    },
+    {
+      "candidate_id": "C",
+      "chainage_from_northeast_m": 200.0,
+      "distance_from_zhixing_road_m": 200.0,
+      "distance_from_jinchuang_road_m": 62.821336867236596,
+      "nearest_mapped_tree_chainage_m": 201.29397381672555,
+      "nearest_mapped_tree_offset_nw_m": 6.761310945953361,
+      "nearest_mapped_tree_point_distance_m": 1.320095318091212,
+      "neighbor_tree_chainage_gap_m": 8.144021791440537,
+      "core_centerline_lon": 121.50545138175879,
+      "core_centerline_lat": 31.306143088099272,
+      "provisional_nw_offset_6_5m_lon": 121.50542555043965,
+      "provisional_nw_offset_6_5m_lat": 31.306197217511215,
+      "osm_core_way_id": "way/1355163990",
+      "evidence_limit": "OSM point distance only; not canopy footprint, shade, clearance, ownership, or observed demand"
+    },
+    {
+      "candidate_id": "S140",
+      "chainage_from_northeast_m": 140.0,
+      "distance_from_zhixing_road_m": 140.0,
+      "distance_from_jinchuang_road_m": 122.8213368672366,
+      "nearest_mapped_tree_chainage_m": 153.2130876107688,
+      "nearest_mapped_tree_offset_nw_m": 7.246978811289475,
+      "nearest_mapped_tree_point_distance_m": 13.234185337767023,
+      "neighbor_tree_chainage_gap_m": 37.067613508835365,
+      "core_centerline_lon": 121.5060362,
+      "core_centerline_lat": 31.3063468,
+      "provisional_nw_offset_6_5m_lon": 121.5060104,
+      "provisional_nw_offset_6_5m_lat": 31.3064009,
+      "osm_core_way_id": "way/1355163990",
+      "evidence_limit": "GAMA 2020 and 2022 screening nominal optimum; OSM point only, not canopy, shade, clearance, ownership, or observed demand"
+    }
+  ],
+  "selected_replay_date": "2020-08-13",
+  "selected_replay_hours": "10:00-16:00 CST",
+  "weather_spatial_resolution_deg": 0.25,
+  "weather_is_site_measurement": false,
+  "radiation_grid_used_for_site_ranking": false,
+  "radiation_grid_exclusion_reason": "local project grid is not registered to OSM WGS84 / CAD geometry"
+}

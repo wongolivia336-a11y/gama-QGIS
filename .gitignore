@@ -31,3 +31,7 @@ validation/*.xml
 /02_大学路遮荫/01_建院交接原项目/source/0614_1300_sum.csv
 /02_大学路遮荫/01_建院交接原项目/source/大学路遮荫数据_20261113_交付.zip
 
+# Publish the GAMA site-selection outputs for our own prototype.
+!/02_大学路遮荫/02_我们组最终原型/simulation/results/
+!/02_大学路遮荫/02_我们组最终原型/simulation/results/**
+

@@ -1,0 +1,5 @@
+﻿site_id,chainage_from_NE_m,runs,mean_shortwave_W_m2,sd_shortwave_W_m2,paired_mean_shortwave_reduction_vs_baseline_W_m2,mean_added_shortwave_reduction_per_person_hour_W_m2,added_reduction_min_W_m2,added_reduction_max_W_m2,mean_device_shaded_share_of_person_time_pct,mean_device_visits_per_96_agents,completed_trip_rate_pct,nearest_mapped_tree_point_m,neighbor_tree_chainage_gap_m
+BASELINE,,27,442.575,4.394,,0.0,0.0,0.0,0.0,0.0,100.0,,
+A,65.0,27,418.09,16.115,24.486,10.541,1.166,23.245,11.031,3.778,100.0,2.3498235850024396,7.092990098131978
+B,135.0,27,411.834,16.589,30.741,59.349,15.2,114.958,11.048,3.778,100.0,18.22839920733732,37.067613508835365
+C,200.0,27,417.902,16.146,24.674,10.698,1.297,23.419,11.186,3.778,100.0,1.320095318091212,8.144021791440537
